@@ -1,0 +1,7 @@
+Useful Commands:
+- yarn install     # Install dependencies
+- yarn start       # Start the application
+- git status       # Check the status of files
+- git add .        # Add all files to the staging area
+- git commit -m "Commit message"   # Commit changes with a message
+- git push         # Push changes to the remote repository

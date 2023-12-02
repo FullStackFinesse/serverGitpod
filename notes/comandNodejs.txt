@@ -1,0 +1,48 @@
+# Comandos para Node.js Development
+
+## Instalación de Dependencias:
+
+- `yarn add express`
+  - Descripción: Instala la biblioteca Express para manejar las rutas y la lógica del servidor.
+
+- `yarn add nodemon --dev` or `yarn add nodemon -D`
+  - Descripción: Instala nodemon como dependencia de desarrollo para reiniciar automáticamente el servidor durante el desarrollo.
+
+- `yarn add mongoose`
+  - Descripción: Instala Mongoose para interactuar con MongoDB de manera más sencilla en Node.js.
+
+- `yarn add bcrypt`
+  - Descripción: Instala la biblioteca Bcrypt para el cifrado y descifrado de contraseñas.
+
+- `yarn add dotenv`
+  - Descripción: Instala Dotenv para cargar variables de entorno desde un archivo `.env`.
+
+- `yarn add cookie-parser`
+  - Descripción: Instala Cookie-parser para analizar las cookies en las solicitudes HTTP.
+
+- `yarn add cors`
+  - Descripción: Instala Cors para habilitar el manejo de solicitudes HTTP entre diferentes dominios.
+
+- `yarn add jsonwebtoken`
+  - Descripción: Instala Jsonwebtoken para trabajar con tokens de autenticación.
+
+- `yarn add joi`
+  - Descripción: Instala Joi para validar y describir esquemas de objetos JavaScript.
+
+# Comandos Útiles:
+
+- `yarn start`
+  - Descripción: Inicia la aplicación.
+
+- `git status`
+  - Descripción: Verifica el estado de los archivos en el repositorio Git.
+
+- `git add .`
+  - Descripción: Añade todos los archivos al área de preparación.
+
+- `git commit -m "Mensaje del commit"`
+  - Descripción: Realiza un commit con un mensaje.
+
+- `git push`
+  - Descripción: Sube los cambios al repositorio remoto.
+

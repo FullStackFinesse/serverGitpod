@@ -1,0 +1,36 @@
+# Comandos para Node.js Development
+
+## Instalación de Dependencias:
+
+- `yarn add uuid`
+  - Descripción: Instala la biblioteca `uuid` para trabajar con identificadores únicos universalmente válidos (UUIDs).
+
+- `yarn add joi`
+  - Descripción: Instala la biblioteca `joi` para realizar validaciones avanzadas, incluida la validación de UUIDs.
+
+- `yarn add uuid-validate`
+  - Descripción: Instala la biblioteca `uuid-validate` para validar UUIDs.
+
+- `yarn add is-uuid`
+  - Descripción: Instala la biblioteca `is-uuid` para validar UUIDs.
+
+- `yarn add express-validator`
+  - Descripción: Instala `express-validator` si deseas realizar validaciones en el contexto de Express.js.
+
+- `yarn add validator`
+  - Descripción: Instala la biblioteca `validator` para realizar diversas validaciones, incluida la validación de UUIDs.
+
+# Comandos Útiles:
+
+## Ejemplo de validación de UUID con `uuid`:
+
+```javascript
+const { v4: uuidv4, validate: uuidValidate } = require('uuid');
+
+// Generar un UUID
+const newUuid = uuidv4();
+console.log('Nuevo UUID:', newUuid);
+
+// Validar un UUID
+const isValidUuid = uuidValidate(newUuid);
+console.log('Es un UUID válido:', isValidUuid);

@@ -1,0 +1,5 @@
+ports:
+  - name: Server
+    description: The main application web server
+    port: 5000
+    onOpen: open-browser
